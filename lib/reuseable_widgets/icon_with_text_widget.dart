@@ -1,6 +1,8 @@
+```dart
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gap/gap.dart';
 
 import '../core/styles/app_colors.dart';
@@ -13,6 +15,7 @@ class IconWithTextWidget extends StatelessWidget {
     this.svgIcon,
     this.imageIcon,
     this.icon,
+    this.faIcon,
     this.color,
     this.height,
     this.width,
@@ -22,7 +25,13 @@ class IconWithTextWidget extends StatelessWidget {
   final String text;
   final String? svgIcon;
   final String? imageIcon;
+
+  // Flutter Material/Cupertino icons
   final IconData? icon;
+
+  // Font Awesome icons
+  final FaIconData? faIcon;
+
   final Color? color;
   final double? height;
   final double? width;
@@ -39,19 +48,30 @@ class IconWithTextWidget extends StatelessWidget {
             width: width,
             height: height,
           ),
+
         if (icon != null)
           Icon(
             icon,
             color: color ?? AppColors.primaryColor,
             size: height ?? width,
           ),
+
+        if (faIcon != null)
+          FaIcon(
+            faIcon,
+            color: color ?? AppColors.primaryColor,
+            size: height ?? width,
+          ),
+
         if (imageIcon != null)
           ImageIcon(
             AssetImage(imageIcon!),
             color: color ?? AppColors.primaryColor,
             size: height ?? width,
           ),
+
         const Gap(10),
+
         Flexible(
           child: Text(
             text,
@@ -65,3 +85,4 @@ class IconWithTextWidget extends StatelessWidget {
     );
   }
 }
+```
