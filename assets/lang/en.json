@@ -1,0 +1,15 @@
+{
+  "commmmmment": "server messages",
+  "connectionTimeOut": "Connection Time Out",
+  "sendTimeOut": "Send Time Out",
+  "receiveTimeOut": "Receive Time Out",
+  "badCer": "Bad Certificate",
+  "noInternetConnection": "No Internet Connection",
+  "oppsThereWasAnError": "Opps There Was An Error",
+  "yourRequestNotFound": "Your Request Not Found",
+  "serverProblem": "Server Problem",
+  "emailAlreadyInUse": "Email Already In Use",
+  "phoneNumberAlreadyInUse": "Phone Number Already In Use",
+  "somethingWentWrong": "Something Went Wrong"
+
+}

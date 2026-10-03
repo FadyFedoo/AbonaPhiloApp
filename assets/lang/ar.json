@@ -1,0 +1,16 @@
+{
+
+  "commmmmment": "server messages",
+  "connectionTimeOut": "انتهت مدة الاتصال",
+  "sendTimeOut": "انتهت مدة الإرسال",
+  "receiveTimeOut": "انتهت مدة الاستقبال",
+  "badCer": "شهادة غير صالحة",
+  "noInternetConnection": "لا يوجد اتصال بالإنترنت",
+  "oppsThereWasAnError": "عذرًا، حدث خطأ",
+  "yourRequestNotFound": "لم يتم العثور على طلبك",
+  "serverProblem": "مشكلة في الخادم",
+  "emailAlreadyInUse": "البريد الإلكتروني مستخدم بالفعل",
+  "phoneNumberAlreadyInUse": "رقم الهاتف مستخدم بالفعل",
+  "You are not subscribed to this package": "أنت غير مشترك في هذه الباقة",
+  "somethingWentWrong": "حدث خطاء ما"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "115210430339",
+    "project_id": "e3trafatk",
+    "storage_bucket": "e3trafatk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115210430339:android:9fc0b0b7722e20bd1078b6",
+        "android_client_info": {
+          "package_name": "com.attia.fr_philopater"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPzlZyW0RL-5G46XCHlg4AaRTaTVpB3ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
