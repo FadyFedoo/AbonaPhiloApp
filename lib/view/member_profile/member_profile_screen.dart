@@ -144,7 +144,7 @@ class _MemberProfileScreenState extends State<MemberProfileScreen> {
                               widget.user!.maritalStatus!.isNotEmpty) ...[
                             IconWithTextWidget(
                               text: widget.user!.maritalStatus!,
-                              faIcon: FontAwesomeIcons.heart,,
+                              faIcon: FontAwesomeIcons.heart,
                             ),
                             const Gap(10),
                           ],
