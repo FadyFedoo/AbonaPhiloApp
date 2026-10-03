@@ -15,7 +15,6 @@ class IconWithTextWidget extends StatelessWidget {
     this.svgIcon,
     this.imageIcon,
     this.icon,
-    this.faIcon,
     this.color,
     this.height,
     this.width,
@@ -26,11 +25,8 @@ class IconWithTextWidget extends StatelessWidget {
   final String? svgIcon;
   final String? imageIcon;
 
-  // Flutter Material/Cupertino icons
-  final IconData? icon;
-
-  // Font Awesome icons
-  final FaIconData? faIcon;
+  // Supports both Flutter IconData and Font Awesome FaIconData.
+  final dynamic icon;
 
   final Color? color;
   final double? height;
@@ -49,16 +45,16 @@ class IconWithTextWidget extends StatelessWidget {
             height: height,
           ),
 
-        if (icon != null)
+        if (icon is IconData)
           Icon(
-            icon,
+            icon as IconData,
             color: color ?? AppColors.primaryColor,
             size: height ?? width,
           ),
 
-        if (faIcon != null)
+        if (icon is FaIconData)
           FaIcon(
-            faIcon,
+            icon as FaIconData,
             color: color ?? AppColors.primaryColor,
             size: height ?? width,
           ),
